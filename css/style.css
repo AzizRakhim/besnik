@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Poppins';
-  src: url('/lesson/fonts/Poppins-Bold.woff2') format('woff2'),
-      url('/lesson/fonts/Poppins-Bold.woff') format('woff');
+  src: url('/fonts/Poppins-Bold.woff2') format('woff2'),
+      url('/fonts/Poppins-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
   font-family: 'Poppins';
-  src: url('/lesson/fonts/Poppins-Regular.woff2') format('woff2'),
-      url('/lesson/fonts/Poppins-Regular.woff') format('woff');
+  src: url('/fonts/Poppins-Regular.woff2') format('woff2'),
+      url('/fonts/Poppins-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -18,8 +18,8 @@
 
 @font-face {
   font-family: 'Poppins';
-  src: url('/lesson/fonts/Poppins-Medium.woff2') format('woff2'),
-      url('/lesson/fonts/Poppins-Medium.woff') format('woff');
+  src: url('/fonts/Poppins-Medium.woff2') format('woff2'),
+      url('/fonts/Poppins-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -196,7 +196,7 @@ body {
 }
 
 .info-title::after{
-  content: url('/lesson/images/growth.svg');
+  content: url('/images/growth.svg');
   display: inline-block;
   width: 25px;
   height: 16px;
@@ -366,7 +366,7 @@ body {
 }
 
 .testimonial-title::before{
-  content: url('/lesson/images/mark.svg');
+  content: url('/images/mark.svg');
   display: inline-block;
   position: absolute;
   top: -60px;
@@ -524,7 +524,7 @@ body {
 }
 
 .product-title::before{
-  content: url('/lesson/images/cake.png');
+  content: url('/images/cake.png');
   display: block;
   position: absolute;
   top: -20px;
@@ -532,7 +532,7 @@ body {
 }
 
 .product-item:nth-child(2) .fake-border .product-title::before{
-  content: url('/lesson/images/bowl.png');
+  content: url('/images/bowl.png');
   display: block;
   position: absolute;
   top: -25px;
@@ -540,7 +540,7 @@ body {
 }
 
 .product-item:nth-child(3) .fake-border .product-title::before{
-  content: url('/lesson/images/puppy.png');
+  content: url('/images/puppy.png');
   display: block;
   position: absolute;
   top: -20px;
